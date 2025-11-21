@@ -24,8 +24,20 @@ nav ul{
 
 /* BILDER */
 
+main{
+    padding: 20px;
+}
+
 .bilder h1{
     text-align: center;
+}
+
+.bildepunkt-spm{
+    font-style: italic;
+}
+
+.bildepunkter-section{
+    background-color: lightgoldenrodyellow;
 }
 
 .kompresjon-typer{
@@ -96,4 +108,25 @@ h1{
     display: block;
     width: 100%;
 
+}
+
+.kompresjon-section{
+    background-color: lightblue;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid;
+    margin: 0 auto;
+   
+}
+
+td, th{
+    border: 2px solid;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fil-section{
+    background-color: lightcoral;
 }

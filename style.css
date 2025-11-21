@@ -1,9 +1,38 @@
+img{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
 nav ul{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: blueviolet;
+    background-color: rgb(161, 94, 223);
+    list-style-type: none;
 }
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+nav a:hover{
+    background-color: rgb(102, 46, 155);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
 
 
 .index-content h1{
@@ -31,10 +60,6 @@ main{
     padding: 20px;
 }
 
-.bilder h1{
-    text-align: center;
-}
-
 .bildepunkt-spm{
     font-size: 20px;
     font-style: italic;
@@ -51,7 +76,6 @@ main{
 
 .pixel-bilde{
     margin: 0 auto;
-    width: 400px;
 }
 
 .kompresjon-typer{

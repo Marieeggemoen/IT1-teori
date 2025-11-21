@@ -56,19 +56,26 @@ main{
     background-color: aliceblue;
 }
 
+.kompresjon-section{
+    background-color: lightblue;
+}
 
+table{
+    border-collapse: collapse;
+    border: 2px solid;
+    margin: 0 auto;
+   
+}
 
+td, th{
+    border: 2px solid;
+    padding: 10px;
+    font-size: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.fil-section{
+    background-color: lightcoral;
+}
 
 
 
@@ -108,25 +115,4 @@ h1{
     display: block;
     width: 100%;
 
-}
-
-.kompresjon-section{
-    background-color: lightblue;
-}
-
-table{
-    border-collapse: collapse;
-    border: 2px solid;
-    margin: 0 auto;
-   
-}
-
-td, th{
-    border: 2px solid;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.fil-section{
-    background-color: lightcoral;
 }
